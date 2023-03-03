@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    html{
+        @apply font-Roboto font-normal text-base
+    }
+}
+
+@layer components {
+    #CountContainer span {
+       @apply py-8 px-4 rounded-lg  flex justify-center items-center ;
+    }
+
+
+    #CountContainer #separator {
+        @apply text-green-500 overflow-hidden py-8 w-16 flex justify-center
+    }
+
+    #button-submit-timer{
+        @apply flex w-full p-4 rounded-lg items-center justify-center gap-2 font-bold text-gray-100  disabled:opacity-70 disabled:cursor-not-allowed 
+    }
+ 
+    #form input{
+        @apply bg-transparent border-b-2 border-gray-500 h-10 border-solid font-bold px-2 placeholder:text-gray-500 focus:shadow-none focus:border-green-500
+    }
+
+    th{
+        @apply bg-gray-600 p-4 text-left text-gray-100 text-sm leading-relaxed
+    }
+
+    td{
+        @apply bg-gray-700 border-t-4 border-solid border-gray-800 p-4 text-sm leading-relaxed first:pl-6 first:w-[50%] last:pr-6 
+
+    }
+
+   
+}
+
+#task::-webkit-calendar-picker-indicator{
+    display: none !important;
+}
