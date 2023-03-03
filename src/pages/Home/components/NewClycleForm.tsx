@@ -27,7 +27,6 @@ export function NewCycleForm(){
                 <option value="Option 1"/>
                 <option value="Option 2"/>
                 <option value="Option 3"/>
-                <option value="Roça roça em mim"/>
             </datalist>
 
             <label htmlFor="minutesAmount">durante</label>
