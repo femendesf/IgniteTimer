@@ -5,7 +5,9 @@ import { CountDown } from "./components/CountDown";
 
 import {zodResolver} from '@hookform/resolvers/zod'
 import * as zod from 'zod'
+
 import {FormProvider, useForm } from 'react-hook-form'
+
 import { CyclesContext } from "../../contexts/CyclesContext";
 import { useContext } from "react";
 
@@ -17,7 +19,6 @@ const newCycleFormValidationSchema = zod.object({
 })
 
 type NewCycleFormData = zod.infer<typeof newCycleFormValidationSchema>
-
 
 export function Home(){
 
@@ -42,7 +43,7 @@ export function Home(){
     }
     return(
         
-        <main className="flex flex-col items-center justify-center flex-1 ">
+        <main className="flex flex-col items-center justify-center">
         
             <form onSubmit={handleSubmit(handleCreateNewCycle)} action="" className="flex flex-col items-center gap-14">
 
@@ -63,11 +64,11 @@ export function Home(){
                         Interromper
                     </button>
 
-                : <button
+                :<button
                     type="submit"
-                        id="button-submit-timer"   
-                        disabled={isSubmitDisabled}
-                        className='bg-green-500 disabled:bg-green-500 hover:bg-green-700 '
+                    id="button-submit-timer"   
+                    disabled={isSubmitDisabled}
+                    className='bg-green-500 disabled:bg-green-500 hover:bg-green-700 '
                     >
                         <Play size={24}/>
                         Começar:

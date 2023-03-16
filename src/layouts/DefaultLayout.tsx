@@ -5,7 +5,7 @@ export function DefaultLayout(){
     return(
         <div className="
         max-w-[75rem]
-        h-[calc(100vh-10rem)]
+        max-h-full
         my-20
         p-10
         m-auto

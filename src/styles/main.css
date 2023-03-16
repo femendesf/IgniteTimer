@@ -19,7 +19,7 @@
     }
 
     #button-submit-timer{
-        @apply flex w-full p-4 rounded-lg items-center justify-center gap-2 font-bold text-gray-100  disabled:opacity-70 disabled:cursor-not-allowed 
+        @apply flex w-full p-4 rounded-lg items-center justify-center gap-2 font-bold text-gray-100  disabled:opacity-70 disabled:cursor-not-allowed
     }
  
     #form input{

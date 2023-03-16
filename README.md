@@ -1,2 +1,30 @@
 # IgniteTimer
- Project ignite Rocketseat
+
+## Screen:
+<img src="github\Capa.png" alt="Capa do desafio Coffee Delivery" />
+
+---
+
+### Curso da Rocketseat. 🚀
+Projeto criado para o desafio do Ignite da Rocketseat.
+
+---
+
+## Tecnologias
+
+* [React](https://pt-br.reactjs.org/)
+* [TypeScript](https://www.typescriptlang.org/)
+* [VITE](https://vitejs.dev/)
+* [Phosphoricons](https://phosphoricons.com/)
+* [Tailwind](https://tailwindcss.com/)
+* [React-Hooh-Form](https://react-hook-form.com/)
+* [ZOD](https://github.com/colinhacks/zod)
+* [React Router DOM](https://www.npmjs.com/package/react-router-dom)
+
+---
+
+### Instal project:
+`npm install`
+
+### Start project:
+`npm run dev`
