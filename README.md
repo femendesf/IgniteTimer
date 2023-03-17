@@ -6,8 +6,7 @@
 ---
 
 ### Curso da Rocketseat. 🚀
-Projeto criado para o desafio do Ignite da Rocketseat.
-
+Esse projeto o usuário pode dar um nome para o projeto e definir um tempo em que vai trabalhar nele. Pode também acessar o histórico dos projetos em andamento, concluídos e finalizados.
 ---
 
 ## Biblioteca e Framework:
