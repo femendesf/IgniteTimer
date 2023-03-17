@@ -10,7 +10,7 @@ Projeto criado para o desafio do Ignite da Rocketseat.
 
 ---
 
-## Tecnologias
+## Biblioteca e Framework:
 
 * [React](https://pt-br.reactjs.org/)
 * [TypeScript](https://www.typescriptlang.org/)
